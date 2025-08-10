@@ -51,7 +51,7 @@ const Contacts = () => {
   };
 
   return (
-    <section id="contacts" className="py-20 px-4">
+    <section id="contacts" className="py-6 w-full">
       <div className="max-w-6xl mx-auto">
         <motion.h2
           className="text-5xl font-bold text-center mb-16 text-orange-600"

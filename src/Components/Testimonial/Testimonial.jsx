@@ -79,7 +79,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="">
+    <div className="py-6 w-full ">
       <h2 className="text-4xl font-bold text-center text-orange-600 ">
         Client Testimonials
       </h2>
