@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import img from '../../assets/IMG_0966.png';
+import { FaGithub, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
 
 const Banner = () => {
   const fullText = 'a Jr. Web Developer';
@@ -61,6 +62,33 @@ const Banner = () => {
             applications using MongoDB, Express.js, React, and Node.js. I create
             scalable, responsive, and user-friendly solutions.
           </p>
+          <div className="flex gap-4">
+            <a href="https://github.com/mdimu29ail">
+              <FaGithub
+                size={'25px'}
+                className="hover:text-orange-500 cursor-pointer"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/imamul-molla">
+              <FaLinkedin
+                size={'25px'}
+                className="hover:text-orange-500 cursor-pointer"
+              />
+            </a>
+            <a href="">
+              <FaTwitter
+                size={'25px'}
+                className="hover:text-orange-500 cursor-pointer"
+              />
+            </a>
+            <a href="https://web.facebook.com/imu997778293">
+              <FaFacebook
+                size={'25px'}
+                className="hover:text-orange-500 cursor-pointer"
+              />
+            </a>
+          </div>
+
           <div className="flex gap-5">
             <a className="inline-block bg-orange-600 hover:bg-orange-700 border border-orange-600 px-4 py-2 text-lg font-semibold text-white rounded-lg transition-transform duration-300 hover:scale-105 shadow-md">
               Hire Me
