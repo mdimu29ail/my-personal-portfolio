@@ -1,6 +1,43 @@
 const projects = [
   {
     id: '1',
+    title: 'Pet Adoption System',
+    shortDescription:
+      'A platform to connect pet adopters with shelter animals, featuring adoption requests, approvals, and status tracking.',
+    longDescription:
+      'Pet Adoption System is a full-stack web application designed to help users adopt pets easily and efficiently. Users can browse available pets, submit adoption requests, and track their adoption status. Admins can manage adoption requests, update statuses (pending, approved, or rejected), and maintain pet listings. The system also supports secure authentication, responsive design, and image uploads for pet profiles. Built with React, Node.js, Express, and MongoDB, and secured with Firebase authentication.',
+    category: 'Animal Welfare',
+    creationDate: '2025-04-10',
+    features: [
+      'Browse and Search Available Pets',
+      'Submit and Track Adoption Requests',
+      'Admin Dashboard for Request Management',
+      'User Authentication with Firebase',
+      'Responsive and Mobile-Friendly UI',
+      'Image Upload for Pet Profiles',
+    ],
+    contributors: ['Md Imamul Islam', 'Alice Brown'],
+    images: [
+      'https://i.ibb.co.com/s9M4fC7m/Screenshot-2025-08-11-212802.png',
+      'https://i.ibb.co.com/05nH4fg/Screenshot-2025-08-11-212601.png',
+      'https://i.ibb.co.com/wZpL0Rb1/Screenshot-2025-08-11-212623.png',
+      'https://i.ibb.co.com/JRG1Zd0L/Screenshot-2025-08-11-212642.png',
+    ],
+    live: 'https://pet-adoption-18bdd.web.app',
+    github: 'https://github.com/yourusername/pet-adoption-system',
+    details: '/project/1',
+    technologies: [
+      'React',
+      'Node.js',
+      'Express',
+      'MongoDB',
+      'Firebase',
+      'tailwindcss',
+      'daisyUI',
+    ],
+  },
+  {
+    id: '2',
     title: 'The Spice Slice',
     shortDescription:
       'A modern restaurant web app to explore menu and place orders online or in-person.',
@@ -23,8 +60,8 @@ const projects = [
       'https://i.ibb.co/KjRnFXQj/Screenshot-2025-06-28-212847.jpg',
     ],
     live: 'https://my-assignment-clicnt.web.app/',
-    github: 'https://github.com/yourusername/blog-platform',
-    details: '/project/1',
+    github: 'https://github.com/mdimu29ail/The-Spice-Slice-clicent',
+    details: '/project/2',
     technologies: [
       'React',
       'Node.js',
@@ -37,7 +74,7 @@ const projects = [
     ],
   },
   {
-    id: '2',
+    id: '3',
     title: 'Hobby Group Organizer',
     shortDescription:
       'A platform to create and manage interest-based hobby groups with chat and collaboration.',
@@ -61,42 +98,6 @@ const projects = [
     ],
     live: 'https://assignment-10-client-1d765.web.app/',
     github: 'https://github.com/mdimu29ail/Assigment-10-polish',
-    details: '/project/2',
-    technologies: [
-      'React',
-      'Node.js',
-      'Express',
-      'MongoDB',
-      'Firebase',
-      'tailwindcss',
-      'daisyUI',
-    ],
-  },
-  {
-    id: '3',
-    title: 'Our Lawyers',
-    shortDescription:
-      'Admin-client system for parcel management with booking, tracking, and payment features.',
-    longDescription:
-      'Our Lawyers is an admin-client system designed to streamline parcel sending, tracking, and payments. It includes functionalities such as parcel booking, an admin dashboard for managing parcels, and comprehensive payment history tracking. The system is built with React, Node.js, Express, and MongoDB, utilizing Firebase for authentication. The responsive interface supports both clients and admins, ensuring smooth parcel operations.',
-    category: 'Logistics',
-    creationDate: '2025-04-10',
-    features: [
-      'Parcel Booking and Tracking',
-      'Admin Dashboard for Parcel Management',
-      'User Authentication with Firebase',
-      'Payment History and Status Tracking',
-      'Responsive Design',
-    ],
-    contributors: ['Md Imamul Islam', 'Alice Brown'],
-    images: [
-      'https://i.ibb.co/N6b81GbV/Screenshot-2025-06-28-212954.jpg',
-      'https://i.ibb.co/Sw296zBN/Screenshot-2025-06-28-213031.jpg',
-      'https://i.ibb.co/G3sFqYG2/Screenshot-2025-06-28-213117.jpg',
-      'https://i.ibb.co/JhGw53D/Smoke.jpg',
-    ],
-    live: 'https://my-assignment-8-run.netlify.app/home',
-    github: 'https://github.com/yourusername/parcel-delivery',
     details: '/project/3',
     technologies: [
       'React',
